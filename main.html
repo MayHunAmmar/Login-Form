@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
     
@@ -22,8 +22,9 @@
             </div>
 
             <div class="inputbox">
-            <input class="Name-box" type="Password" placeholder="Enter Your Password">
-            <i class='bx bx-lock-alt' ></i>
+            <input class="Name-box js-type" type="Password" placeholder="Enter Your Password">
+            <i class='bx bx-lock-alt js-ShowPassword' ></i>
+            <i class='bx bxs-low-vision hide js-password'></i>
             
             </div>
 
@@ -42,6 +43,8 @@
 
 
         </div>
+
+        <script src="/PassToggle.js"></script>
 
     </main>
 </body>
