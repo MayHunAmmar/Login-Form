@@ -62,6 +62,10 @@ body {
     width: 100px;
 }
 
+.inputbox .hide{
+    display: none;
+}
+
 .Name-box {
     width: 100%;
     padding: 14px;
@@ -71,9 +75,6 @@ body {
 
 }
 
-.Name-box::placeholder{
-    padding-left: 12px;
-}
 .Name-box::selection {
     pointer-events: none;
 }
